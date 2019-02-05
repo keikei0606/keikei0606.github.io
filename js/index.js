@@ -147,7 +147,11 @@ window.onload = function(){
       currentLocation = 0;
       score = 0;
       miss = 0;
+<<<<<<< HEAD
       timer = 1080;
+=======
+      timer = 1080;
+>>>>>>> 99015fe627cab51cc7c74773634b7802491bc7c3
       target.innerHTML = currentWord;
       scoreLabel.innerHTML = score;
       missLabel.innerHTML = miss;
@@ -161,7 +165,11 @@ window.onload = function(){
       timerId = setTimeout(function(){
         timer--;
         timerLabel.innerHTML = timer;
+<<<<<<< HEAD
         if(timer%180 === 0 &&timer!=1080){
+=======
+        if(timer%180 === 0 &&timer!=30){
+>>>>>>> 99015fe627cab51cc7c74773634b7802491bc7c3
           document.bgColor = bgcolor[colorId];
           document.fgColor = fgcolor[colorId];
           if(colorId === 0){
@@ -221,7 +229,11 @@ window.onload = function(){
         return;
       }
 
+<<<<<<< HEAD
       if(String.fromCharCode(e.keyCode) === currentWord[currentLocation].toUpperCase()){
+=======
+      if(String.fromCharCode(e.keyCode) === currentWord[currentLocation].toUpperCase()){
+>>>>>>> 99015fe627cab51cc7c74773634b7802491bc7c3
         currentLocation++;
         var placeholder = '';
         for(var i = 0; i < currentLocation; i++){

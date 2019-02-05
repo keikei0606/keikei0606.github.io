@@ -224,7 +224,7 @@ window.onload = function(){
       }
 
 
-      if(String.fromCharCode(e.keyCode) === currentWord[currentLocation].toLowerCase()){
+      if(String.fromCharCode(e.keyCode) === currentWord[currentLocation]){
 
         currentLocation++;
         var placeholder = '';
